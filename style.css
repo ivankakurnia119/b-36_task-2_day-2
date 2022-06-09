@@ -1,0 +1,230 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #E3E7EB;
+        }
+
+        /* navbar */
+        .navbar {
+            background-color: #F4F3F3;
+            /* width: 100%; */
+            height: 60px;
+            display: flex;
+            padding: 10px 100px;
+            /* box-shadow: 1px 1px 1px rgb(177, 174, 174); */
+        }
+        .navbar .kiri {
+            flex: 2;
+            display: flex;
+            align-items: center;
+            
+            
+        }
+        .navbar img {
+            width: 70px;
+            height: 45px
+        }
+        
+        .navbar .kiri ul {
+            display: flex;
+            text-decoration: none;
+            padding-left: 50px;
+            
+        }
+        .navbar .kiri ul li {
+            list-style-type: none;
+            padding-right: 50px;
+        }
+        .navbar .kiri ul li a {
+            text-decoration: none;
+            color: rgb(31, 31, 31);
+        }
+        li a.active {
+            font-weight:bold;
+        }
+        
+        .navbar .kanan {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+        .navbar .kanan a {
+            width: 140px;
+            height: 40px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 40px;
+            color: #F4F3F3;
+            background-color: rgb(31, 31, 31);
+            border-radius: 10px;
+        }
+
+        /* konten */
+
+        .container-card {
+            margin: 85px auto;
+            padding: 10px 100px;
+            
+        }
+     
+        .content {
+            background-color: #fff;
+            padding: 40px;
+            box-sizing: border-box;
+            text-align: justify;
+            display: flex;
+            border-radius: 8px;
+            box-shadow: 2px 12px 25px rgb(179, 178, 178);
+        }
+        
+        .content .text-social {
+            flex: 2;
+            margin: 20px 20px;
+            
+        }
+        
+        .content .text-social  p {
+            margin-bottom: 62px;
+            width: 95%;
+            
+        }
+
+        .content .button {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 72px;
+
+        }
+
+        .content .text-social .button a {
+            display: flex;
+            width: 130px;
+            height: 44px;
+            text-decoration: none;   
+            line-height: 44px;
+            color: #F4F3F3;
+            background-color: rgb(31, 31, 31);
+            border-radius: 20px;
+            justify-content: center;
+            margin-right: 30px;
+                  
+         }
+
+        
+         .content .text-social .button p {
+             margin: 0px 20px 0px 0px;
+         }
+
+       
+         /* Mengubah Ukuran Icon Download */
+        .content .text-social img {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Mengatur ukuran lebar container bagian icon-sosial media */
+        .content .text-social .social-media {
+            width: 80%;
+        }
+        
+        /* mengatur ukuran gambar icon-sosial media dan memberikan jarak padding right 25px  */
+        .content .text-social .social-media img {
+            width: 64px;
+            height: 64px;
+            padding-right: 25px;
+
+        }
+
+        .image-card {
+            flex: 1;
+            background-color: #fff;
+            margin: 20px 20px;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 12px 25px rgb(179, 178, 178);
+        }
+
+        .image-card img {
+            width: 100%;
+            height: 500px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+       
+        .image-card-caption h3 {
+            font-size: 24px;
+            margin-top: 5px;
+            margin-bottom: 0px;
+            text-align: center;
+        }
+       .image-card-caption p {
+            font-size: 18px;
+            margin-top: 0;
+            text-align: center;
+        }
+        .social-media {
+            align-content: flex-start;
+            justify-content: space-around;
+        }
+      
+     
+       /* Style Untuk Halaman Contact*/
+       .container-form {
+           width: 900px;
+           margin: 60px auto;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+
+       }
+
+       .container-form h1 {
+           margin-bottom: 30px;
+           font-size: 28px;
+       }
+       .container-form form>label {
+           font-weight:600;
+           font-size: 18px;
+           
+       }
+       .container-form form>input,select,textarea {
+           width: 100%;
+           height: 50px;
+           margin: 8px auto 25px;
+           border-radius: 6px;
+           box-sizing: border-box;
+           border: none;
+           box-shadow: 0px 4px 22px -14px black;
+           padding: 20px;
+          
+       }
+       .container-form form>textarea {
+           height: 200px;
+           resize: none;
+           padding: 20px;
+       }
+       .container-form button {
+           width: 150px;
+           background-color: black;
+            color: #fff;
+            height: 45px;
+            font-size: 18px;
+            border-radius: 20px;
+            font-weight: 600;
+       }
+
+       .container-form .submit {
+           width: 100%;
+           display: flex;
+           justify-content: flex-end;
+       }
+
+      
+        
+    
+       
+        
